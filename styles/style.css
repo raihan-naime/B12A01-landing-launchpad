@@ -11,3 +11,96 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+
+/* common sheared styles */
+.color-primary{
+    color: #4E47FF;
+}
+.color-light-black{
+    color: #252432;
+}
+.color-dark-black{
+    color: #000000;
+}
+.color-light-gray{
+    color: rgba(0, 0, 0, 0.5);
+}
+.color-dark-gray{
+    color: #8987A1;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 12px 36px;
+    border: none;
+}
+
+
+/* header styles */
+header{
+    background-image: url('../Assets/Hero-bg.png');
+    height: 700px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 150px;
+}
+nav .logo{
+    font-size: 35px;
+    font-weight: 900;
+}
+.banner-content{
+    text-align: center;
+    margin: 0px 300px;
+    /* border: 2px solid green; */
+}
+.banner-content h1{
+    font-size: 65px;
+    font-weight: 700;
+    /* margin-bottom: 0px; */
+}
+
+
+/* main section styles */
+main section{
+    margin: 115px 150px;
+}
+
+
+/* action section styles */
+.action-section{
+    display: flex;
+    gap: 220px;
+    justify-content: space-between;
+    align-items: center;
+}
+.action-section h1{
+    font-size: 42px;
+    font-weight: 700;
+}
+.action-section img{
+    border-radius: 48px;
+}
+
+/* productive section styles */
+.productive-user-section{
+    text-align: center;
+}
+.data-container h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin: 20px;
+}
+.data-container p{
+    font-size: 20px;
+    margin-top: 0px;
+}
+.data-container{
+    display: flex;
+    justify-content: space-around;
+}
