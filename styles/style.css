@@ -1,6 +1,3 @@
-.display {
-    display: none;
-}
 
 body {
     background-color: hsla(36, 33%, 97%, 0.667);
@@ -80,13 +77,11 @@ nav .logo {
 .banner-content {
     text-align: center;
     margin: 0px 300px;
-    /* border: 2px solid green; */
 }
 
 .banner-content h1 {
     font-size: 65px;
     font-weight: 700;
-    /* margin-bottom: 0px; */
 }
 
 
@@ -182,7 +177,7 @@ main section {
 }
 
 
-/*  */
+/* Ready to focus better section styles */
 .focus-better-section{
     text-align: center;
     padding: 70px 150px;
@@ -224,14 +219,17 @@ textarea {
     display: block;
     width: 500px;
     background-color: #FFFFFF;
-    border: none;
+    border: 1px solid #c0c0c089;
     border-radius: 5px;
     padding: 20px 35px;
     margin: 10px 0px;
     font-size: 20px;
 }
-
+textarea{
+    resize: none;
+}
 form button {
+    margin-top: 10px;
     width: 100%;
 }
 
