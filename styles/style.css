@@ -4,7 +4,6 @@ body {
 }
 
 /* google fonts */
-
 .font-inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -76,7 +75,6 @@ nav .logo {
 
 .banner-content {
     text-align: center;
-    margin: 0px 300px;
 }
 
 .banner-content h1 {
@@ -119,7 +117,10 @@ main section {
     padding: 50px 140px;
     text-align: center;
 }
-
+.section-title{
+    font-size: 38px;
+    font-weight: 700;
+}
 .data-container h1 {
     font-size: 80px;
     font-weight: 700;
