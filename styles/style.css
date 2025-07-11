@@ -1,35 +1,48 @@
+.display {
+    display: none;
+}
+
+body {
+    background-color: #FAF7F3;
+}
 
 /* google fonts */
 
 .font-inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+
 .font-raleway {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
 /* common sheared styles */
-.color-primary{
+.color-primary {
     color: #4E47FF;
 }
-.color-light-black{
+
+.color-light-black {
     color: #252432;
 }
-.color-dark-black{
+
+.color-dark-black {
     color: #000000;
 }
-.color-light-gray{
+
+.color-light-gray {
     color: rgba(0, 0, 0, 0.5);
 }
-.color-dark-gray{
+
+.color-dark-gray {
     color: #8987A1;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #4E47FF;
     color: white;
     font-weight: 700;
@@ -40,26 +53,30 @@
 
 
 /* header styles */
-header{
+header {
     background-image: url('../Assets/Hero-bg.png');
     height: 700px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 150px;
 }
-nav .logo{
+
+nav .logo {
     font-size: 35px;
     font-weight: 900;
 }
-.banner-content{
+
+.banner-content {
     text-align: center;
     margin: 0px 300px;
     /* border: 2px solid green; */
 }
-.banner-content h1{
+
+.banner-content h1 {
     font-size: 65px;
     font-weight: 700;
     /* margin-bottom: 0px; */
@@ -67,40 +84,175 @@ nav .logo{
 
 
 /* main section styles */
-main section{
-    margin: 115px 150px;
+main {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+main section {
+    margin: 120px 0px;
 }
 
 
 /* action section styles */
-.action-section{
+.action-section {
     display: flex;
-    gap: 220px;
     justify-content: space-between;
     align-items: center;
 }
-.action-section h1{
+
+.action-section h1 {
     font-size: 42px;
     font-weight: 700;
 }
-.action-section img{
+
+.action-section img {
     border-radius: 48px;
 }
 
 /* productive section styles */
-.productive-user-section{
+.productive-user-section {
+    background-color: hsla(242, 100%, 64%, 0.10);
+    border-radius: 10px;
+    padding: 50px 140px;
     text-align: center;
 }
-.data-container h1{
+
+.data-container h1 {
     font-size: 80px;
     font-weight: 700;
     margin: 20px;
 }
-.data-container p{
+
+.data-container p {
     font-size: 20px;
     margin-top: 0px;
 }
-.data-container{
+
+.data-container {
     display: flex;
     justify-content: space-around;
+}
+
+
+/* Users’ Feedback Section styles */
+.feedback-section {
+    text-align: center;
+}
+.feedback-section h1{
+    font-size: 42px;
+    font-weight: 900;
+}
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    text-align: left;
+    padding-left: 24px;
+}
+.card .user-details{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.card h2{
+    color: hsla(244, 16%, 17%, 0.731);
+}
+.user-details h3{
+    margin-bottom: 0px;
+}
+.user-details p{
+    margin-top: 10px;
+}
+.card img{
+    border-radius: 50%;
+}
+
+
+/*  */
+.focus-better-section{
+    text-align: center;
+}
+.focus-better-section h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.focus-better-section img{
+    margin-top: 20px;
+    border-radius: 48px;
+}
+
+
+
+/* let's get in touch styles */
+.get-in-touch-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 115px;
+    align-items: center;
+}
+
+.get-in-touch-section h1 {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.get-in-touch-section label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+form input,
+textarea {
+    display: block;
+    width: 500px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 35px;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+form button {
+    width: 100%;
+}
+
+
+/* footer styles */
+footer {
+    text-align: center;
+    padding: 150px;
+    background-color: hsla(0, 0%, 100%, 0.111);
+}
+
+footer h1 {
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+footer p {
+
+    margin-top: 0px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+footer li a {
+    text-decoration: none;
 }
